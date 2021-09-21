@@ -11,6 +11,7 @@ class Roteador; //Protótipo da Classe Roteador
 
 class TabelaDeRepasse {
 private:
+    int quantidade;
     Roteador* roteadorPadrao;
     Roteador** roteadores;
     int* enderecos;

@@ -9,7 +9,7 @@ TabelaDeRepasse::TabelaDeRepasse(int tamanho){
     enderecos = new int[tamanho];
     atrasos = new int[tamanho];
     roteadores = new Roteador*[tamanho];
-    setPadrao(Roteador* padrao, int 0);
+    //setPadrao(Roteador* padrao, int 0);
     int quantidade = 0;
 }
 
